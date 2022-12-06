@@ -11,9 +11,9 @@ import {
 
 export default function About({src, content, title, cta}) {
   return (
-    <MDBCard className="center align-center center-align">
+    <MDBCard className="center align-center center-align m-2 justify-content-center text-center">
       <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
-        <MDBCardImage  src={src} fluid alt='...' />
+        <MDBCardImage  src={src} style={{objectFit: "contain", justifyContent: "center", alignContent: "center", maxHeight: "200px"}} fluid alt='...' />
         <a>
           <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
         </a>

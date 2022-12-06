@@ -7,11 +7,20 @@ import Navbar from "./components/Navbar";
 
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import Footer from "./components/Footer";
+import ContactSection from "./components/ContactSection";
+import ListingsSection from "./components/ListingsSection";
+import FAQSection from "./components/FAQSection";
+import HomeSection from "./components/HomeSection";
 
 function App() {
   const [select, setSelect] = React.useState("about");
   const obj = {
-    'about': <AboutSection/>
+    'home': <HomeSection/>,
+    'about': <AboutSection/>,
+    'contact': <ContactSection/>,
+    'listings': <ListingsSection/>,
+    'faq': <FAQSection/>
   }
   return (
     <>
@@ -22,6 +31,7 @@ function App() {
     <body>
       <BreadCrumb select={select} setSelect={setSelect}/>
       {obj[select]}
+      <Footer/>
     </body>
     </>
   );

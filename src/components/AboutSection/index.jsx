@@ -13,6 +13,9 @@ export default function AboutSection() {
           <About src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCljTTMzA0JqwkBVYOwhPWW9G7HOsxG0QFjpYsCYtapg&s"}
             content={"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione error vitae perferendis, ab, doloribus modi ut nihil fuga aliquam, molestiae corporis voluptate odit officiis minima harum! Rerum magni mollitia voluptatibus."}
             title={"Our Philosophy"} className="p-2 m-2"/>
+          <About src={"https://st3.depositphotos.com/9998432/13335/v/600/depositphotos_133352010-stock-illustration-default-placeholder-man-and-woman.jpg"}
+            content={"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione error vitae perferendis, ab, doloribus modi ut nihil fuga aliquam, molestiae corporis voluptate odit officiis minima harum! Rerum magni mollitia voluptatibus."}
+            title={"About Gold Token"} className="p-2 m-2"/>
 
         </div>
 

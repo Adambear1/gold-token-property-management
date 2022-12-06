@@ -12,6 +12,7 @@ import ContactSection from "./components/ContactSection";
 import ListingsSection from "./components/ListingsSection";
 import FAQSection from "./components/FAQSection";
 import HomeSection from "./components/HomeSection";
+import NavbarLoginMobile from "./components/NavbarLoginMobile";
 
 function App() {
   const [select, setSelect] = React.useState("about");
@@ -26,6 +27,7 @@ function App() {
     <>
     <header>
       <Navbar/>
+      {window.innerWidth < 400 && <NavbarLoginMobile/>}
       <Header/>
     </header>
     <body>

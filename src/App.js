@@ -27,7 +27,7 @@ function App() {
     <>
     <header>
       <Navbar/>
-      {window.innerWidth < 400 && <NavbarLoginMobile/>}
+      {window.innerWidth < 500 && <NavbarLoginMobile/>}
       <Header/>
     </header>
     <body>

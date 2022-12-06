@@ -3,7 +3,7 @@ import {MDBContainer, MDBNavbar, MDBNavbarBrand} from 'mdb-react-ui-kit';
 
 export default function Navbar() {
 
-  const showRegular = window.innerWidth < 400 ? {display: "none"} : {display: "block"}
+  const showRegular = window.innerWidth < 500 ? {display: "none"} : {display: "block"}
   return (
     <>
       <MDBNavbar light bgColor='light' className='justify-content-center text-center'>
